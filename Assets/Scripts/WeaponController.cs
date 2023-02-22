@@ -45,7 +45,7 @@ public class WeaponController : MonoBehaviour
 
     public void OnFire(InputAction.CallbackContext context)
     {       
-        if (context.performed)
+        if (!GameManager.instance.Pause && context.performed)
         {
             anim.SetTrigger("Fire");  //play weapon fire animation
             audio.PlayOneShot(audio.clip); //play weapon fire sound
@@ -71,13 +71,13 @@ public class WeaponController : MonoBehaviour
 
     public void OnFire2(InputAction.CallbackContext context)
     {
-        if (context.started)
+        if (!GameManager.instance.Pause && context.started)
         {
             poweringUp = true;
             powerupDuration = 0f;
             audio.PlayOneShot(powerupSoundClip);
         }
-        if (context.canceled)
+        if (!GameManager.instance.Pause && context.canceled)
         {
             anim.SetTrigger("Fire");  //play weapon fire animation
             poweringUp = false;

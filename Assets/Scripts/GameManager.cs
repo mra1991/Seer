@@ -54,14 +54,15 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InitGame();
+        LoadGame();
     }
 
     private void InitGame()
     {
-        //Time.timeScale = 1f; //make sure time is not freezed (pause)
-        LoadGame(); //fetch score and player's position from player prefs and set them
-                    //
+        gameOver = false;
+        if (pause)
+            PauseOrPlay();
+
         selectMenu.PanelToggle(-1); //tell selectMenu to hide all panels
         //lock the cursor in the middle of the screen
         Cursor.lockState = CursorLockMode.Locked;
@@ -70,6 +71,7 @@ public class GameManager : MonoBehaviour
 
         DisplayScore();
         txtGameOver.SetActive(false); //hide game over UI element
+
         seerDamage.FullHeal();
     }
 
@@ -102,9 +104,10 @@ public class GameManager : MonoBehaviour
 
     void GameOver()
     {
-        gameOver = true;
         txtGameOver.SetActive(true);
-        ShowMenu();
+        if(!pause)
+            PauseOrPlay();
+        gameOver = true;
     }
 
     public void PauseOrPlay()
@@ -147,7 +150,7 @@ public class GameManager : MonoBehaviour
         PlayerPrefs.SetFloat("HeroRotX", 0f);
         PlayerPrefs.SetFloat("HeroRotY", 45f);
         PlayerPrefs.SetFloat("HeroRotZ", 0f);
-        InitGame(); //reinitialize the game
+        LoadGame();
     }
 
     public void LoadGame()
@@ -163,6 +166,7 @@ public class GameManager : MonoBehaviour
             PlayerPrefs.GetFloat("HeroRotX", 0f),
             PlayerPrefs.GetFloat("HeroRotY", 45f),
             PlayerPrefs.GetFloat("HeroRotZ", 0f));
+        InitGame();
     }
 
 
