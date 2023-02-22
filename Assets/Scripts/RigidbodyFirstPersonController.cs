@@ -93,7 +93,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         public void OnLook(InputAction.CallbackContext contex)
         {
-            mouseLook.InputDirection = contex.ReadValue<Vector2>();
+            if(!GameManager.instance.Pause)
+                mouseLook.InputDirection = contex.ReadValue<Vector2>();
         }
 
         public void OnJump(InputValue val)

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityStandardAssets.Characters.FirstPerson;
 
 public class GameManager : MonoBehaviour
 {
@@ -28,11 +29,14 @@ public class GameManager : MonoBehaviour
 
     //variables for pause menu and game over
     private bool pause = false;
+    private float oldTime = 0f;
     private bool gameOver = false;
     [Tooltip("Attach eventsystem with SelectMenu script on it")]
     [SerializeField] private SelectMenu selectMenu;
     [Tooltip("Attach UI element for GAME OVER text")]
     [SerializeField] GameObject txtGameOver; //text mesh pro for GAME OVER
+
+    public bool Pause { get => pause; }
 
     private void Awake()
     {
@@ -55,12 +59,17 @@ public class GameManager : MonoBehaviour
 
     private void InitGame()
     {
-        Time.timeScale = 1f; //make sure time is not freezed (pause)
-        LoadGame(); //fetch score and player's position from player prefs and set them      
-        HideMenu();
+        //Time.timeScale = 1f; //make sure time is not freezed (pause)
+        LoadGame(); //fetch score and player's position from player prefs and set them
+                    //
+        selectMenu.PanelToggle(-1); //tell selectMenu to hide all panels
+        //lock the cursor in the middle of the screen
+        Cursor.lockState = CursorLockMode.Locked;
+        //don't show cursor
+        Cursor.visible = false;
+
         DisplayScore();
         txtGameOver.SetActive(false); //hide game over UI element
-        HideMenu();
         seerDamage.FullHeal();
     }
 
@@ -74,11 +83,6 @@ public class GameManager : MonoBehaviour
     void ShowMenu()
     {
         selectMenu.PanelToggle(0); //tell selectMenu to show first panel, which is the pause menu
-    }
-
-    void HideMenu()
-    {
-        selectMenu.PanelToggle(-1); //tell selectMenu to hide all panels
     }
 
 
@@ -107,24 +111,17 @@ public class GameManager : MonoBehaviour
     {
         if (!gameOver) //if player's not dead
         {
-            if (!pause) //if not pause, pause the game
-            {
-                pause = true;
-                //Time.timeScale = 0f;
-                ShowMenu();
-            }
-            else //game is paused, unpause it
-            {
-                pause = false;
-                Time.timeScale = 1f;
-                HideMenu();
-            }
-        }
-        else if (!pause) //the player's dead and the game is not paused, so pause it
-        {
-            pause = true;
-            //Time.timeScale = 0f;
-            ShowMenu();
+            pause = !pause;
+            hero.GetComponent<RigidbodyFirstPersonController>().enabled = !pause;
+            selectMenu.PanelToggle(pause ? 0 : -1); //show first panel/hide all panels
+
+            //swap current and old time scales
+            float temp = oldTime;
+            oldTime = Time.timeScale;
+            Time.timeScale = temp;
+
+            Cursor.lockState = pause ? CursorLockMode.None : CursorLockMode.Locked;
+            Cursor.visible = pause ? true : false;
         }
     }
 
