@@ -2319,7 +2319,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.2421384, y: 1}
+    m_SensorSize: {x: 2.2416892, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -2505,7 +2505,7 @@ GameObject:
   - component: {fileID: 1425055303}
   - component: {fileID: 1425055302}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: TMP_Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2559,8 +2559,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278976630
+  m_fontColor: {r: 0.46226418, g: 0, b: 0.046633497, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
