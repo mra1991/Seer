@@ -10,6 +10,7 @@ public class LoadNextScene : MonoBehaviour
     public void LoadScene()
     {
         //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        GameManager.instance.seerDamage.FullHeal(); //heal the player to restore vignette effect
         StartCoroutine(LoadNext());
     }
 
