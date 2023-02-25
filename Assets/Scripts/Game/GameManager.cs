@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
     [Tooltip("Attach your hero here")]
     [SerializeField] public Transform hero;
     [Tooltip("Attach your hero here")]
-    [SerializeField] private SeerDamage seerDamage;
+    [SerializeField] public SeerDamage seerDamage;
 
     //variables for pause menu and game over
     private bool pause = false;

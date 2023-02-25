@@ -1,0 +1,742 @@
+fileFormatVersion: 2
+guid: 332cbfb841ebb3c4aaccc72b6c090904
+timeCreated: 1525223093
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Door
+    100004: Door 1
+    100006: Door 10
+    100008: Door 11
+    100010: Door 12
+    100012: Door 13
+    100014: Door 14
+    100016: Door 15
+    100018: Door 16
+    100020: Door 17
+    100022: Door 18
+    100024: Door 19
+    100026: Door 2
+    100028: Door 20
+    100030: Door 21
+    100032: Door 22
+    100034: Door 23
+    100036: Door 24
+    100038: Door 25
+    100040: Door 3
+    100042: Door 4
+    100044: Door 5
+    100046: Door 6
+    100048: Door 7
+    100050: Door 8
+    100052: Door 9
+    100054: Door1
+    100056: Door1 1
+    100058: Door1 2
+    100060: Door1 3
+    100062: Door1 4
+    100064: Door1 5
+    100066: Door1 6
+    100068: Door1 7
+    100070: Door1 8
+    100072: Door1 9
+    100074: Door2
+    100076: Door2 1
+    100078: Door2 2
+    100080: Door2 3
+    100082: Door2 4
+    100084: Door2 5
+    100086: Door2 6
+    100088: Door2 7
+    100090: Door2 8
+    100092: Door2 9
+    100094: Hut_A1
+    100096: Hut_A1_Props
+    100098: Hut_A2
+    100100: Hut_A2_Props
+    100102: Hut_B1
+    100104: Hut_B1_Props
+    100106: Hut_B2
+    100108: Hut_B2_Props
+    100110: Hut_Base_A1
+    100112: Hut_Base_A2
+    100114: Hut_Base_B1
+    100116: Hut_Base_B2
+    100118: Hut_Base_C1
+    100120: Hut_Base_C2
+    100122: Hut_Base_D1
+    100124: Hut_Base_D2
+    100126: Hut_Base_E1
+    100128: Hut_Base_E2
+    100130: Hut_Base_F1
+    100132: Hut_Base_F1 1
+    100134: Hut_Base_G1
+    100136: Hut_Base_G2
+    100138: Hut_Base_H1
+    100140: Hut_Base_H2
+    100142: Hut_Base_I1
+    100144: Hut_Base_I2
+    100146: Hut_Base_J1
+    100148: Hut_Base_J2
+    100150: Hut_Base_K1
+    100152: Hut_Base_K2
+    100154: Hut_Base_L1
+    100156: Hut_Base_L2
+    100158: Hut_Base_M1
+    100160: Hut_Base_M2
+    100162: Hut_Base_N1
+    100164: Hut_Base_N2
+    100166: Hut_Base_O1
+    100168: Hut_Base_O2
+    100170: Hut_Base_P1
+    100172: Hut_Base_P2
+    100174: Hut_Base_Q1
+    100176: Hut_Base_Q2
+    100178: Hut_Base_R1
+    100180: Hut_Base_R2
+    100182: Hut_C1
+    100184: Hut_C1_Props
+    100186: Hut_C2
+    100188: Hut_C2_Props
+    100190: Hut_D1
+    100192: Hut_D1_Props
+    100194: Hut_D2
+    100196: Hut_D2_Props
+    100198: Hut_E1
+    100200: Hut_E1_Props
+    100202: Hut_E2
+    100204: Hut_E2_Props
+    100206: Hut_F1
+    100208: Hut_F1_Props
+    100210: Hut_F2
+    100212: Hut_F2_Props
+    100214: Hut_G1
+    100216: Hut_G1_Props
+    100218: Hut_G2
+    100220: Hut_G2_Props
+    100222: Hut_H1
+    100224: Hut_H1_Props
+    100226: Hut_H2
+    100228: Hut_H2_Props
+    100230: Hut_I1
+    100232: Hut_I1_Props
+    100234: Hut_I2
+    100236: Hut_I2_Props
+    100238: Hut_J1
+    100240: Hut_J1_Props
+    100242: Hut_J2
+    100244: Hut_J2_Props
+    100246: Hut_K1
+    100248: Hut_K1_Props
+    100250: Hut_K2
+    100252: Hut_K2_Props
+    100254: Hut_L1
+    100256: Hut_L1_Props
+    100258: Hut_L2
+    100260: Hut_L2_Props
+    100262: Hut_M1
+    100264: Hut_M1_Props
+    100266: Hut_M2
+    100268: Hut_M2_Props
+    100270: Hut_N1
+    100272: Hut_N1_Props
+    100274: Hut_N2
+    100276: Hut_N2_Props
+    100278: Hut_O1
+    100280: Hut_O1_Props
+    100282: Hut_O2
+    100284: Hut_O2_Props
+    100286: Hut_P1
+    100288: Hut_P1_Props
+    100290: Hut_P2
+    100292: Hut_P2_Props
+    100294: Hut_Q1
+    100296: Hut_Q1_Props
+    100298: Hut_Q2
+    100300: Hut_R1
+    100302: Hut_R1_Props
+    100304: Hut_R2
+    100306: Hut_R2_Props
+    100308: Roof_Joint_Q2
+    400000: //RootNode
+    400002: Door
+    400004: Door 1
+    400006: Door 10
+    400008: Door 11
+    400010: Door 12
+    400012: Door 13
+    400014: Door 14
+    400016: Door 15
+    400018: Door 16
+    400020: Door 17
+    400022: Door 18
+    400024: Door 19
+    400026: Door 2
+    400028: Door 20
+    400030: Door 21
+    400032: Door 22
+    400034: Door 23
+    400036: Door 24
+    400038: Door 25
+    400040: Door 3
+    400042: Door 4
+    400044: Door 5
+    400046: Door 6
+    400048: Door 7
+    400050: Door 8
+    400052: Door 9
+    400054: Door1
+    400056: Door1 1
+    400058: Door1 2
+    400060: Door1 3
+    400062: Door1 4
+    400064: Door1 5
+    400066: Door1 6
+    400068: Door1 7
+    400070: Door1 8
+    400072: Door1 9
+    400074: Door2
+    400076: Door2 1
+    400078: Door2 2
+    400080: Door2 3
+    400082: Door2 4
+    400084: Door2 5
+    400086: Door2 6
+    400088: Door2 7
+    400090: Door2 8
+    400092: Door2 9
+    400094: Hut_A1
+    400096: Hut_A1_Props
+    400098: Hut_A2
+    400100: Hut_A2_Props
+    400102: Hut_B1
+    400104: Hut_B1_Props
+    400106: Hut_B2
+    400108: Hut_B2_Props
+    400110: Hut_Base_A1
+    400112: Hut_Base_A2
+    400114: Hut_Base_B1
+    400116: Hut_Base_B2
+    400118: Hut_Base_C1
+    400120: Hut_Base_C2
+    400122: Hut_Base_D1
+    400124: Hut_Base_D2
+    400126: Hut_Base_E1
+    400128: Hut_Base_E2
+    400130: Hut_Base_F1
+    400132: Hut_Base_F1 1
+    400134: Hut_Base_G1
+    400136: Hut_Base_G2
+    400138: Hut_Base_H1
+    400140: Hut_Base_H2
+    400142: Hut_Base_I1
+    400144: Hut_Base_I2
+    400146: Hut_Base_J1
+    400148: Hut_Base_J2
+    400150: Hut_Base_K1
+    400152: Hut_Base_K2
+    400154: Hut_Base_L1
+    400156: Hut_Base_L2
+    400158: Hut_Base_M1
+    400160: Hut_Base_M2
+    400162: Hut_Base_N1
+    400164: Hut_Base_N2
+    400166: Hut_Base_O1
+    400168: Hut_Base_O2
+    400170: Hut_Base_P1
+    400172: Hut_Base_P2
+    400174: Hut_Base_Q1
+    400176: Hut_Base_Q2
+    400178: Hut_Base_R1
+    400180: Hut_Base_R2
+    400182: Hut_C1
+    400184: Hut_C1_Props
+    400186: Hut_C2
+    400188: Hut_C2_Props
+    400190: Hut_D1
+    400192: Hut_D1_Props
+    400194: Hut_D2
+    400196: Hut_D2_Props
+    400198: Hut_E1
+    400200: Hut_E1_Props
+    400202: Hut_E2
+    400204: Hut_E2_Props
+    400206: Hut_F1
+    400208: Hut_F1_Props
+    400210: Hut_F2
+    400212: Hut_F2_Props
+    400214: Hut_G1
+    400216: Hut_G1_Props
+    400218: Hut_G2
+    400220: Hut_G2_Props
+    400222: Hut_H1
+    400224: Hut_H1_Props
+    400226: Hut_H2
+    400228: Hut_H2_Props
+    400230: Hut_I1
+    400232: Hut_I1_Props
+    400234: Hut_I2
+    400236: Hut_I2_Props
+    400238: Hut_J1
+    400240: Hut_J1_Props
+    400242: Hut_J2
+    400244: Hut_J2_Props
+    400246: Hut_K1
+    400248: Hut_K1_Props
+    400250: Hut_K2
+    400252: Hut_K2_Props
+    400254: Hut_L1
+    400256: Hut_L1_Props
+    400258: Hut_L2
+    400260: Hut_L2_Props
+    400262: Hut_M1
+    400264: Hut_M1_Props
+    400266: Hut_M2
+    400268: Hut_M2_Props
+    400270: Hut_N1
+    400272: Hut_N1_Props
+    400274: Hut_N2
+    400276: Hut_N2_Props
+    400278: Hut_O1
+    400280: Hut_O1_Props
+    400282: Hut_O2
+    400284: Hut_O2_Props
+    400286: Hut_P1
+    400288: Hut_P1_Props
+    400290: Hut_P2
+    400292: Hut_P2_Props
+    400294: Hut_Q1
+    400296: Hut_Q1_Props
+    400298: Hut_Q2
+    400300: Hut_R1
+    400302: Hut_R1_Props
+    400304: Hut_R2
+    400306: Hut_R2_Props
+    400308: Roof_Joint_Q2
+    2300000: Door
+    2300002: Door 1
+    2300004: Door 10
+    2300006: Door 11
+    2300008: Door 12
+    2300010: Door 13
+    2300012: Door 14
+    2300014: Door 15
+    2300016: Door 16
+    2300018: Door 17
+    2300020: Door 18
+    2300022: Door 19
+    2300024: Door 2
+    2300026: Door 20
+    2300028: Door 21
+    2300030: Door 22
+    2300032: Door 23
+    2300034: Door 24
+    2300036: Door 25
+    2300038: Door 3
+    2300040: Door 4
+    2300042: Door 5
+    2300044: Door 6
+    2300046: Door 7
+    2300048: Door 8
+    2300050: Door 9
+    2300052: Door1
+    2300054: Door1 1
+    2300056: Door1 2
+    2300058: Door1 3
+    2300060: Door1 4
+    2300062: Door1 5
+    2300064: Door1 6
+    2300066: Door1 7
+    2300068: Door1 8
+    2300070: Door1 9
+    2300072: Door2
+    2300074: Door2 1
+    2300076: Door2 2
+    2300078: Door2 3
+    2300080: Door2 4
+    2300082: Door2 5
+    2300084: Door2 6
+    2300086: Door2 7
+    2300088: Door2 8
+    2300090: Door2 9
+    2300092: Hut_A1_Props
+    2300094: Hut_A2_Props
+    2300096: Hut_B1_Props
+    2300098: Hut_B2_Props
+    2300100: Hut_Base_A1
+    2300102: Hut_Base_A2
+    2300104: Hut_Base_B1
+    2300106: Hut_Base_B2
+    2300108: Hut_Base_C1
+    2300110: Hut_Base_C2
+    2300112: Hut_Base_D1
+    2300114: Hut_Base_D2
+    2300116: Hut_Base_E1
+    2300118: Hut_Base_E2
+    2300120: Hut_Base_F1
+    2300122: Hut_Base_F1 1
+    2300124: Hut_Base_G1
+    2300126: Hut_Base_G2
+    2300128: Hut_Base_H1
+    2300130: Hut_Base_H2
+    2300132: Hut_Base_I1
+    2300134: Hut_Base_I2
+    2300136: Hut_Base_J1
+    2300138: Hut_Base_J2
+    2300140: Hut_Base_K1
+    2300142: Hut_Base_K2
+    2300144: Hut_Base_L1
+    2300146: Hut_Base_L2
+    2300148: Hut_Base_M1
+    2300150: Hut_Base_M2
+    2300152: Hut_Base_N1
+    2300154: Hut_Base_N2
+    2300156: Hut_Base_O1
+    2300158: Hut_Base_O2
+    2300160: Hut_Base_P1
+    2300162: Hut_Base_P2
+    2300164: Hut_Base_Q1
+    2300166: Hut_Base_Q2
+    2300168: Hut_Base_R1
+    2300170: Hut_Base_R2
+    2300172: Hut_C1_Props
+    2300174: Hut_C2_Props
+    2300176: Hut_D1_Props
+    2300178: Hut_D2_Props
+    2300180: Hut_E1_Props
+    2300182: Hut_E2_Props
+    2300184: Hut_F1_Props
+    2300186: Hut_F2_Props
+    2300188: Hut_G1_Props
+    2300190: Hut_G2_Props
+    2300192: Hut_H1_Props
+    2300194: Hut_H2_Props
+    2300196: Hut_I1_Props
+    2300198: Hut_I2_Props
+    2300200: Hut_J1_Props
+    2300202: Hut_J2_Props
+    2300204: Hut_K1_Props
+    2300206: Hut_K2_Props
+    2300208: Hut_L1_Props
+    2300210: Hut_L2_Props
+    2300212: Hut_M1_Props
+    2300214: Hut_M2_Props
+    2300216: Hut_N1_Props
+    2300218: Hut_N2_Props
+    2300220: Hut_O1_Props
+    2300222: Hut_O2_Props
+    2300224: Hut_P1_Props
+    2300226: Hut_P2_Props
+    2300228: Hut_Q1_Props
+    2300230: Hut_R1_Props
+    2300232: Hut_R2_Props
+    2300234: Roof_Joint_Q2
+    3300000: Door
+    3300002: Door 1
+    3300004: Door 10
+    3300006: Door 11
+    3300008: Door 12
+    3300010: Door 13
+    3300012: Door 14
+    3300014: Door 15
+    3300016: Door 16
+    3300018: Door 17
+    3300020: Door 18
+    3300022: Door 19
+    3300024: Door 2
+    3300026: Door 20
+    3300028: Door 21
+    3300030: Door 22
+    3300032: Door 23
+    3300034: Door 24
+    3300036: Door 25
+    3300038: Door 3
+    3300040: Door 4
+    3300042: Door 5
+    3300044: Door 6
+    3300046: Door 7
+    3300048: Door 8
+    3300050: Door 9
+    3300052: Door1
+    3300054: Door1 1
+    3300056: Door1 2
+    3300058: Door1 3
+    3300060: Door1 4
+    3300062: Door1 5
+    3300064: Door1 6
+    3300066: Door1 7
+    3300068: Door1 8
+    3300070: Door1 9
+    3300072: Door2
+    3300074: Door2 1
+    3300076: Door2 2
+    3300078: Door2 3
+    3300080: Door2 4
+    3300082: Door2 5
+    3300084: Door2 6
+    3300086: Door2 7
+    3300088: Door2 8
+    3300090: Door2 9
+    3300092: Hut_A1_Props
+    3300094: Hut_A2_Props
+    3300096: Hut_B1_Props
+    3300098: Hut_B2_Props
+    3300100: Hut_Base_A1
+    3300102: Hut_Base_A2
+    3300104: Hut_Base_B1
+    3300106: Hut_Base_B2
+    3300108: Hut_Base_C1
+    3300110: Hut_Base_C2
+    3300112: Hut_Base_D1
+    3300114: Hut_Base_D2
+    3300116: Hut_Base_E1
+    3300118: Hut_Base_E2
+    3300120: Hut_Base_F1
+    3300122: Hut_Base_F1 1
+    3300124: Hut_Base_G1
+    3300126: Hut_Base_G2
+    3300128: Hut_Base_H1
+    3300130: Hut_Base_H2
+    3300132: Hut_Base_I1
+    3300134: Hut_Base_I2
+    3300136: Hut_Base_J1
+    3300138: Hut_Base_J2
+    3300140: Hut_Base_K1
+    3300142: Hut_Base_K2
+    3300144: Hut_Base_L1
+    3300146: Hut_Base_L2
+    3300148: Hut_Base_M1
+    3300150: Hut_Base_M2
+    3300152: Hut_Base_N1
+    3300154: Hut_Base_N2
+    3300156: Hut_Base_O1
+    3300158: Hut_Base_O2
+    3300160: Hut_Base_P1
+    3300162: Hut_Base_P2
+    3300164: Hut_Base_Q1
+    3300166: Hut_Base_Q2
+    3300168: Hut_Base_R1
+    3300170: Hut_Base_R2
+    3300172: Hut_C1_Props
+    3300174: Hut_C2_Props
+    3300176: Hut_D1_Props
+    3300178: Hut_D2_Props
+    3300180: Hut_E1_Props
+    3300182: Hut_E2_Props
+    3300184: Hut_F1_Props
+    3300186: Hut_F2_Props
+    3300188: Hut_G1_Props
+    3300190: Hut_G2_Props
+    3300192: Hut_H1_Props
+    3300194: Hut_H2_Props
+    3300196: Hut_I1_Props
+    3300198: Hut_I2_Props
+    3300200: Hut_J1_Props
+    3300202: Hut_J2_Props
+    3300204: Hut_K1_Props
+    3300206: Hut_K2_Props
+    3300208: Hut_L1_Props
+    3300210: Hut_L2_Props
+    3300212: Hut_M1_Props
+    3300214: Hut_M2_Props
+    3300216: Hut_N1_Props
+    3300218: Hut_N2_Props
+    3300220: Hut_O1_Props
+    3300222: Hut_O2_Props
+    3300224: Hut_P1_Props
+    3300226: Hut_P2_Props
+    3300228: Hut_Q1_Props
+    3300230: Hut_R1_Props
+    3300232: Hut_R2_Props
+    3300234: Roof_Joint_Q2
+    4300000: Hut_Base_A1
+    4300002: Hut_A1_Props
+    4300004: Door
+    4300006: Hut_Base_A2
+    4300008: Hut_A2_Props
+    4300010: Door
+    4300012: Hut_Base_B1
+    4300014: Hut_B1_Props
+    4300016: Door
+    4300018: Hut_Base_B2
+    4300020: Hut_B2_Props
+    4300022: Door
+    4300024: Hut_Base_C1
+    4300026: Hut_C1_Props
+    4300028: Door
+    4300030: Hut_Base_C2
+    4300032: Hut_C2_Props
+    4300034: Door
+    4300036: Hut_Base_D1
+    4300038: Hut_D1_Props
+    4300040: Door
+    4300042: Hut_Base_D2
+    4300044: Hut_D2_Props
+    4300046: Door
+    4300048: Hut_Base_E1
+    4300050: Hut_E1_Props
+    4300052: Door
+    4300054: Hut_Base_E2
+    4300056: Hut_E2_Props
+    4300058: Door
+    4300060: Hut_Base_F1
+    4300062: Hut_F1_Props
+    4300064: Door
+    4300066: Hut_Base_F1
+    4300068: Hut_F2_Props
+    4300070: Door
+    4300072: Hut_Base_G1
+    4300074: Hut_G1_Props
+    4300076: Door
+    4300078: Hut_Base_G2
+    4300080: Hut_G2_Props
+    4300082: Door
+    4300084: Hut_Base_H1
+    4300086: Hut_H1_Props
+    4300088: Door
+    4300090: Hut_Base_H2
+    4300092: Hut_H2_Props
+    4300094: Door
+    4300096: Hut_Base_I1
+    4300098: Hut_I1_Props
+    4300100: Door
+    4300102: Hut_Base_I2
+    4300104: Hut_I2_Props
+    4300106: Door
+    4300108: Hut_Base_J1
+    4300110: Hut_J1_Props
+    4300112: Door
+    4300114: Hut_Base_J2
+    4300116: Hut_J2_Props
+    4300118: Door
+    4300120: Hut_Base_K1
+    4300122: Hut_K1_Props
+    4300124: Door
+    4300126: Hut_Base_K2
+    4300128: Hut_K2_Props
+    4300130: Door
+    4300132: Hut_Base_L1
+    4300134: Hut_L1_Props
+    4300136: Door
+    4300138: Hut_Base_L2
+    4300140: Hut_L2_Props
+    4300142: Door
+    4300144: Hut_Base_M1
+    4300146: Hut_M1_Props
+    4300148: Door
+    4300150: Hut_Base_M2
+    4300152: Hut_M2_Props
+    4300154: Door
+    4300156: Hut_Base_N1
+    4300158: Hut_N1_Props
+    4300160: Door1
+    4300162: Door2
+    4300164: Hut_Base_N2
+    4300166: Hut_N2_Props
+    4300168: Door1
+    4300170: Door2
+    4300172: Hut_Base_O1
+    4300174: Hut_O1_Props
+    4300176: Door1
+    4300178: Door2
+    4300180: Hut_Base_O2
+    4300182: Hut_O2_Props
+    4300184: Door1
+    4300186: Door2
+    4300188: Hut_Base_P1
+    4300190: Hut_P1_Props
+    4300192: Door1
+    4300194: Door2
+    4300196: Hut_Base_P2
+    4300198: Hut_P2_Props
+    4300200: Door1
+    4300202: Door2
+    4300204: Hut_Base_Q1
+    4300206: Hut_Q1_Props
+    4300208: Door1
+    4300210: Door2
+    4300212: Hut_Base_Q2
+    4300214: Roof_Joint_Q2
+    4300216: Door1
+    4300218: Door2
+    4300220: Hut_Base_R1
+    4300222: Hut_R1_Props
+    4300224: Door1
+    4300226: Door2
+    4300228: Hut_Base_R2
+    4300230: Hut_R2_Props
+    4300232: Door1
+    4300234: Door2
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
