@@ -1,0 +1,170 @@
+fileFormatVersion: 2
+guid: 6ea75bad75c6ba14995512a4bd103df6
+timeCreated: 1523901615
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Fence_A_Curved_Left30
+    100002: Fence_A_Curved_Left90
+    100004: Fence_A_Curved_Right30
+    100006: Fence_A_Curved_Right90
+    100008: Fence_A_Forward
+    100010: Fence_B_Curved_Left30
+    100012: Fence_B_Curved_Left90
+    100014: Fence_B_Curved_Right30
+    100016: Fence_B_Curved_Right90
+    100018: Fence_B_Forward
+    100020: Fence_C_Curved_Left30
+    100022: Fence_C_Curved_Left90
+    100024: Fence_C_Curved_Right30
+    100026: Fence_C_Curved_Right_90
+    100028: Fence_C_Forward
+    100030: Fence_D_Curved_Left30
+    100032: Fence_D_Curved_Right30
+    100034: Fence_D_Forward
+    100036: //RootNode
+    400000: Fence_A_Curved_Left30
+    400002: Fence_A_Curved_Left90
+    400004: Fence_A_Curved_Right30
+    400006: Fence_A_Curved_Right90
+    400008: Fence_A_Forward
+    400010: Fence_B_Curved_Left30
+    400012: Fence_B_Curved_Left90
+    400014: Fence_B_Curved_Right30
+    400016: Fence_B_Curved_Right90
+    400018: Fence_B_Forward
+    400020: Fence_C_Curved_Left30
+    400022: Fence_C_Curved_Left90
+    400024: Fence_C_Curved_Right30
+    400026: Fence_C_Curved_Right_90
+    400028: Fence_C_Forward
+    400030: Fence_D_Curved_Left30
+    400032: Fence_D_Curved_Right30
+    400034: Fence_D_Forward
+    400036: //RootNode
+    2300000: Fence_A_Curved_Left30
+    2300002: Fence_A_Curved_Left90
+    2300004: Fence_A_Curved_Right30
+    2300006: Fence_A_Curved_Right90
+    2300008: Fence_A_Forward
+    2300010: Fence_B_Curved_Left30
+    2300012: Fence_B_Curved_Left90
+    2300014: Fence_B_Curved_Right30
+    2300016: Fence_B_Curved_Right90
+    2300018: Fence_B_Forward
+    2300020: Fence_C_Curved_Left30
+    2300022: Fence_C_Curved_Left90
+    2300024: Fence_C_Curved_Right30
+    2300026: Fence_C_Curved_Right_90
+    2300028: Fence_C_Forward
+    2300030: Fence_D_Curved_Left30
+    2300032: Fence_D_Curved_Right30
+    2300034: Fence_D_Forward
+    3300000: Fence_A_Curved_Left30
+    3300002: Fence_A_Curved_Left90
+    3300004: Fence_A_Curved_Right30
+    3300006: Fence_A_Curved_Right90
+    3300008: Fence_A_Forward
+    3300010: Fence_B_Curved_Left30
+    3300012: Fence_B_Curved_Left90
+    3300014: Fence_B_Curved_Right30
+    3300016: Fence_B_Curved_Right90
+    3300018: Fence_B_Forward
+    3300020: Fence_C_Curved_Left30
+    3300022: Fence_C_Curved_Left90
+    3300024: Fence_C_Curved_Right30
+    3300026: Fence_C_Curved_Right_90
+    3300028: Fence_C_Forward
+    3300030: Fence_D_Curved_Left30
+    3300032: Fence_D_Curved_Right30
+    3300034: Fence_D_Forward
+    4300000: Fence_A_Forward
+    4300002: Fence_A_Curved_Left30
+    4300004: Fence_A_Curved_Left90
+    4300006: Fence_A_Curved_Right30
+    4300008: Fence_A_Curved_Right90
+    4300010: Fence_B_Forward
+    4300012: Fence_B_Curved_Left30
+    4300014: Fence_B_Curved_Left90
+    4300016: Fence_B_Curved_Right30
+    4300018: Fence_B_Curved_Right90
+    4300020: Fence_C_Forward
+    4300022: Fence_C_Curved_Left30
+    4300024: Fence_C_Curved_Left90
+    4300026: Fence_C_Curved_Right30
+    4300028: Fence_C_Curved_Right_90
+    4300030: Fence_D_Forward
+    4300032: Fence_D_Curved_Left30
+    4300034: Fence_D_Curved_Right30
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
