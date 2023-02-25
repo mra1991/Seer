@@ -57,11 +57,11 @@ public class EnemyBehaviour : MonoBehaviour
         {
             hp--;
         }
-        else
+        else if(!isDead)
         {
             //enemy is dead
             isDead = true;
-            GameManager.instance.EnemyDown(); //signal the game manager that an enemy has died
+            EnemyManager.instance.EnemyDown(); //signal the game manager that an enemy has died
             anim.SetTrigger("Death"); //play death animation
             gameObject.GetComponent<CapsuleCollider>().isTrigger = true; //turn the collider a trigger, so it won't restrict player's movement
             Invoke("DecomposeBody", deadBodyLifeTime); //after a while destroy yourself

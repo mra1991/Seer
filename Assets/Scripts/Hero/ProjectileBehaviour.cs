@@ -5,8 +5,8 @@ using UnityEngine;
 public class ProjectileBehaviour : MonoBehaviour
 {
     [SerializeField] private GameObject smoke; //attach the prefab for smoke 
-    const int projectileDamage = 4; //projectile damage to regular damage ratio
-    const float explosionRadius = 2f; //enemies in this range take damage
+    [SerializeField] private int projectileDamage = 4; //projectile damage to regular damage ratio
+    [SerializeField] private float explosionRadius = 10f; //enemies in this range take damage
 
     // Start is called before the first frame update
     void Start()

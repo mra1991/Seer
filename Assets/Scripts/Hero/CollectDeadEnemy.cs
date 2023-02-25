@@ -15,6 +15,7 @@ public class CollectDeadEnemy : MonoBehaviour
     void Start()
     {
         txtHint.SetActive(false);  //hide hint
+        canCollect = false;
     }
 
     // Update is called once per frame
@@ -47,6 +48,7 @@ public class CollectDeadEnemy : MonoBehaviour
     {
         if(context.performed && canCollect) //if the button is pressed and there is a dead enemy to collect
         {
+            canCollect = false;
             Destroy(deadEnemy); //destroy the enemy gameobject
             GameManager.instance.AddPoints(); //signal game manager increase the number of collected enemies
             txtHint.SetActive(false);  //hide hint

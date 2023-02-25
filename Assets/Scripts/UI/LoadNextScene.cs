@@ -9,6 +9,7 @@ public class LoadNextScene : MonoBehaviour
 
     public void LoadScene()
     {
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         StartCoroutine(LoadNext());
     }
 
@@ -22,6 +23,7 @@ public class LoadNextScene : MonoBehaviour
         }
         yield return null;
     }
+
     // Start is called before the first frame update
     void Start()
     {

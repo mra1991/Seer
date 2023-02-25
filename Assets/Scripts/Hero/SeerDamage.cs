@@ -77,7 +77,7 @@ public class SeerDamage : MonoBehaviour
         }
         else //player is dead
         {
-            GameManager.instance.Death(); //signal the game manager that player is dead
+            GameManager.instance.GameOver(); //signal the game manager that player is dead
             vignette.intensity.value = initialVignetteIntensity; //set the intensity to initial value
         }
     }

@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityStandardAssets.Characters.FirstPerson;
+using UnityEngine.SceneManagement;
+
 
 public class GameManager : MonoBehaviour
 {
@@ -15,18 +17,6 @@ public class GameManager : MonoBehaviour
     [Tooltip("Attach your hero here")]
     [SerializeField] private SeerDamage seerDamage;
 
-    //variables for generating enemies
-    [SerializeField] private int maxNumberOfEnemies = 10;
-    private int currNumOfEnemies = 0;
-    [SerializeField] private float generateEnemyEvery = 10f;
-    private float timeSinceLastEnemy = 0f;
-    [SerializeField] private Transform appearingSpot;
-    [SerializeField] private GameObject enemy;
-
-    //variables for score
-    [SerializeField] TMP_Text tmpScore; //text mesh pro for score
-    private int score = 0;
-
     //variables for pause menu and game over
     private bool pause = false;
     private float oldTime = 0f;
@@ -35,6 +25,10 @@ public class GameManager : MonoBehaviour
     [SerializeField] private SelectMenu selectMenu;
     [Tooltip("Attach UI element for GAME OVER text")]
     [SerializeField] GameObject txtGameOver; //text mesh pro for GAME OVER
+
+    //variables for score
+    [SerializeField] TMP_Text tmpScore; //text mesh pro for score
+    private int score = 0;
 
     public bool Pause { get => pause; }
 
@@ -55,13 +49,6 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         LoadGame();
-    }
-
-    private void InitGame()
-    {
-        gameOver = false;
-        if (pause)
-            PauseOrPlay();
 
         selectMenu.PanelToggle(-1); //tell selectMenu to hide all panels
         //lock the cursor in the middle of the screen
@@ -75,34 +62,32 @@ public class GameManager : MonoBehaviour
         seerDamage.FullHeal();
     }
 
+    //Reloads the scene
+    public void InitGame()
+    {
+        //make sure to unpause the game before reloading the scene
+        if (pause) 
+        {
+            gameOver = false;
+            PauseOrPlay();
+        }
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 
-    //refreshes the text for score
     void DisplayScore()
     {
         tmpScore.text = score.ToString("D4");
     }
 
-    void ShowMenu()
-    {
-        selectMenu.PanelToggle(0); //tell selectMenu to show first panel, which is the pause menu
-    }
-
-
     //function to be called by the scrip on enemy
     public void AddPoints()
     {
-        score ++; //add score
+        score++; //add score
         DisplayScore(); //refresh the score
     }
 
-
     //to be called when the character dies (by script SeerDamage)
-    public void Death()
-    {
-        GameOver();
-    }
-
-    void GameOver()
+    public void GameOver()
     {
         txtGameOver.SetActive(true);
         if(!pause)
@@ -115,7 +100,7 @@ public class GameManager : MonoBehaviour
         if (!gameOver) //if player's not dead
         {
             pause = !pause;
-            hero.GetComponent<RigidbodyFirstPersonController>().enabled = !pause;
+            //hero.GetComponent<RigidbodyFirstPersonController>().enabled = !pause;
             selectMenu.PanelToggle(pause ? 0 : -1); //show first panel/hide all panels
 
             //swap current and old time scales
@@ -150,12 +135,11 @@ public class GameManager : MonoBehaviour
         PlayerPrefs.SetFloat("HeroRotX", 0f);
         PlayerPrefs.SetFloat("HeroRotY", 45f);
         PlayerPrefs.SetFloat("HeroRotZ", 0f);
-        LoadGame();
+        InitGame();
     }
 
     public void LoadGame()
     {
-
         score = PlayerPrefs.GetInt("Score", 0);
         hero.position = new Vector3(
             PlayerPrefs.GetFloat("HeroPosX", 300f),
@@ -166,28 +150,13 @@ public class GameManager : MonoBehaviour
             PlayerPrefs.GetFloat("HeroRotX", 0f),
             PlayerPrefs.GetFloat("HeroRotY", 45f),
             PlayerPrefs.GetFloat("HeroRotZ", 0f));
-        InitGame();
+        
     }
 
 
     // Update is called once per frame
     void Update()
     {
-        if (timeSinceLastEnemy < generateEnemyEvery)
-        {
-            timeSinceLastEnemy += Time.deltaTime;
-        }
-        else if (currNumOfEnemies < maxNumberOfEnemies) //enough time has passed and not enough enemies there are
-        {
-            Instantiate(enemy, appearingSpot.position, Quaternion.identity); //instantiate new enemy
-            currNumOfEnemies++; //increase the current number of enemies
-            timeSinceLastEnemy = 0f;
-        }
 
-    }
-
-    public void EnemyDown()
-    {
-        currNumOfEnemies--;
     }
 }

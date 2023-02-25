@@ -4,7 +4,7 @@ using UnityEngine.AI;
 [RequireComponent(typeof(NavMeshAgent))]
 public class FollowTarget : MonoBehaviour
 {
-    public Transform target;
+    private Transform target;
     Vector3 destination;
     NavMeshAgent agent;
     EnemyBehaviour mySelf;
@@ -24,7 +24,7 @@ public class FollowTarget : MonoBehaviour
         if (!mySelf.IsDead()) //only update destination if you're alive
         {
             // Update destination if the target moves one unit
-            if (Vector3.Distance(destination, target.position) > 1.0f)
+            if (Vector3.Distance(destination, target.position) > 0.2f)
             {
                 destination = target.position;
                 agent.destination = destination;

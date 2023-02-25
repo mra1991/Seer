@@ -78,6 +78,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   smoke: {fileID: 3209691750050352804, guid: 6f6e652a9f7fe8c4b9623c33a3799f43, type: 3}
+  projectileDamage: 4
+  explosionRadius: 10
 --- !u!96 &6594374109559636788
 TrailRenderer:
   serializedVersion: 2
